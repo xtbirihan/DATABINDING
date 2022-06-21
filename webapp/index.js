@@ -9,8 +9,8 @@ sap.ui.require([
         var oModel = new JSONModel({
             greetingText: "Hi, my name is Harry Hawk"
         });
-        sap.ui.getCore().setModel();
+        sap.ui.getCore().setModel(oModel);
 		// Create a text UI element that displays a hardcoded text string
-		new Text({text: "Hi, my name is Harry Hawk"}).placeAt("content");
+		new Text({text: "{/greetingText}"}).placeAt("content");
 	});
 });
