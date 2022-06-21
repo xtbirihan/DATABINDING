@@ -1,0 +1,14 @@
+{
+  "name": "sap.ui.core.tutorial.databinding",
+  "version": "1.0.0",
+  "description": "Sample: Data Binding ",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "author": "H Tugay Birihan",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^2.14.9"
+  }
+}
